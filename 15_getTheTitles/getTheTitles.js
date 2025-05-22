@@ -1,4 +1,5 @@
-const getTheTitles = function() {
+const getTheTitles = function(booklist) {
+  return booklist.map(book => book.title);
 
 };
 
